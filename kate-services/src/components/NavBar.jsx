@@ -1,5 +1,5 @@
 import logo from '../image/logo2.png';
-import '/uplift/tax-financial/kate-services/src/App.css';
+import '../App.css';
 
 function NavBar() {
 
