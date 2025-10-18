@@ -89,20 +89,20 @@
  
 }
 
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1200px) {
   .section {
-    width: 1000px;
+    width: 1200px;
     height: 50rem;
   }
   .head {
-    width: 1000px;
+    width: 1200px;
   }
   .sub-text{
     height: 13rem;
     margin-top: 150px;
   }
   .separator{
-    width: 1013px;
+    width: 1200px;
   }
  
 }
