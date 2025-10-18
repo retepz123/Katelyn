@@ -1,4 +1,4 @@
-import '/uplift/tax-financial/kate-services/src/App.css';
+import '../App.css';
 
 function Separator() {
   return (
