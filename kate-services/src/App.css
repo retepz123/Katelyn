@@ -1,3 +1,4 @@
+
 .logo {
   width: 100px;
   height: 100px;
@@ -48,11 +49,11 @@
 }
 .hero {
   display: flex;
-
   width: 90%;
   justify-content: space-between;
   padding-top: 30px;
   height: 25rem;
+  margin-right: 20px;
 }
 .tag-text {
   font-size: 1.5rem;
@@ -82,17 +83,32 @@
   height: 80rem;
   }
   .sub-text{
-    height: 220px;
+    height: 30rem;
     margin-top: 350px;
   }
-  .sub-text {
-    height: 30rem;
+ 
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .section {
+    width: 1000px;
+    height: 50rem;
   }
+  .head {
+    width: 1000px;
+  }
+  .sub-text{
+    height: 13rem;
+    margin-top: 150px;
+  }
+  .separator{
+    width: 1013px;
+  }
+ 
 }
 
 .separator {
-  width: 100%;
-  height: 3rem;
+  height: 2rem;
   background-color: black;
 }
 

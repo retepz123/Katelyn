@@ -8,9 +8,10 @@ function Separator() {
         <div>
           <section className='section2'>
             <div className='container-text'>
-             
+              <div className='services'>
+                <h1>SERVICES</h1>
+              </div>
             </div>
-          
           </section>
         </div>
       </div>

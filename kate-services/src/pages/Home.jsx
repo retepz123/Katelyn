@@ -5,7 +5,7 @@ import Separator from '../components/separator.jsx';
 
 function Home() {
   return (
-    <div>
+    <div className='main'>
       <NavBar />
       <section className='section'>
         <div className='cons'>
