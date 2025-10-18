@@ -1,5 +1,5 @@
 import NavBar from '../components/NavBar.jsx';
-import '/uplift/tax-financial/kate-services/src/App.css';
+import '../App.css';
 import kate from '../image/kate.png'
 import Separator from '../components/separator.jsx';
 
