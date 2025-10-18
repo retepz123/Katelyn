@@ -1,3 +1,4 @@
+
 .logo {
   width: 100px;
   height: 100px;
@@ -21,6 +22,7 @@
   background-color: yellow;
   width: 100%;
   height: 86vh;
+  flex: 1;
 }
 
 .cons {
@@ -80,6 +82,7 @@
     flex-direction: column;
     align-items: center;
     height: 80rem;
+    
   }
   .sub-text {
     height: 30rem;
@@ -179,7 +182,7 @@
 }
 
 .service-text {
-  font-family: sans-serif;
+  font-family: 'MyCustomFont', sans-serif;
   font-size: 3rem;
 }
 
@@ -226,4 +229,23 @@
   color: white;
   cursor: pointer;
   text-decoration: none;
+}
+.footer {
+  height: 170px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+.sub-footer {
+  text-align: center;
+
+  width: 500px;
+  padding: 10px;
+}
+.footer-logo {
+  width: 250px;
+  height: 100px;
+}
+.copy {
+  color: white
 }
