@@ -19,7 +19,7 @@ function Separator() {
               <img src={services.image} alt={services.title} className='card-image'/>
               <div className='card-title'>{services.title}</div>
               <div className='card-description'>{services.description}</div>
-              <a href='https://mail.google.com/mail/u/0/?fs=1&to=katelynbartolabac@gmail.com&tf=cm' target='_blank'> <button className='inquire' type='button' >Inquire here</button></a>
+              <a href={services.live} target='_blank'> <button className='inquire' type='button' >Inquire here</button></a>
              </div>
 
           ))}
